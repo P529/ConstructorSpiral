@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "constructor-spiral",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Constructor Spiral",
+  "description": "A Meteor Module that helps fly in a spiral.",
   "authors": [
-    "seasnail"
+    "constructor",
+    "P529"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/P529/ConstructorSpiral"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "me.wasteofti.constrcutor.Constructor"
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
