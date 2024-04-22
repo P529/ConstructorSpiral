@@ -15,7 +15,7 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "me.wasteofti.constrcutor.Constructor"
+      "me.wasteofti.constructor.Constructor"
     ]
   },
   "mixins": [

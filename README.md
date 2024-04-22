@@ -10,3 +10,5 @@
 ## Credits
 
 Most of the code for ConstructorSpiral was developed by the legendary developer Constructor, also known as [Avanatiker](https://github.com/Avanatiker).
+
+And also thanks for the trident hax [5c](https://github.com/5cmc/grim-trident)

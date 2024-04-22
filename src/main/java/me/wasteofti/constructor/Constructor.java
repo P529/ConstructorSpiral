@@ -1,6 +1,7 @@
-package me.wasteofti.constrcutor;
+package me.wasteofti.constructor;
 
-import me.wasteofti.constrcutor.modules.ConstructorSpiral;
+import me.wasteofti.constructor.modules.ConstructorSpiral;
+import me.wasteofti.constructor.modules.TridentHax;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -13,7 +14,10 @@ public class Constructor extends MeteorAddon {
 
     @Override
     public void onInitialize() {
+        LOG.info("Initializing Meteor Addon Template");
+
         Modules.get().add(new ConstructorSpiral());
+        Modules.get().add(new TridentHax());
     }
 
     @Override
@@ -23,6 +27,6 @@ public class Constructor extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "me.wasteofti.constructor";
     }
 }

@@ -1,13 +1,10 @@
-package me.wasteofti.constrcutor.modules;
+package me.wasteofti.constructor.modules;
 
-import me.wasteofti.constrcutor.Constructor;
+import me.wasteofti.constructor.Constructor;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
-import net.minecraft.client.network.ClientPlayerEntity;
-import net.minecraft.item.Items;
-import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
 import net.minecraft.util.math.*;
 
 public class ConstructorSpiral extends Module {
